@@ -11,22 +11,16 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: Link embeder for flutter, scrapes URLs from text and shows a Embed with metaData (eg. title, image, description etc..)
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: show clickable link embed widget with metaData from the website
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+TODO: To use the package see and example in the example tab
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
 ```dart
 const like = 'sample';
@@ -34,6 +28,4 @@ const like = 'sample';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+TODO: If you guys have any issue or want to contribute to this package, you can visit the github repo.

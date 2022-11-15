@@ -1,7 +1,7 @@
 name: link_embeder
-description: A new Flutter package project.
+description: ALink embeder for flutter, scrapes URLs from text and shows a Embed with metaData.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Amberon-voldi/link_embeder
 
 environment:
   sdk: '>=2.18.2 <3.0.0'

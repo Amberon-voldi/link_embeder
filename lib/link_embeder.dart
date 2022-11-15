@@ -29,6 +29,8 @@ class LinkEmbeder {
       Future.wait([MetadataFetch.extract(link)]);
 
   showEmbed(context, text) {
+    // Extracts all the links from the text
+    // and returns a list of links
     RegExp exp = new RegExp(
         r'((https?:www\.)|(https?:\/\/)|(www\.))[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9]{1,6}(\/[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)?');
     Iterable<RegExpMatch> matches = exp.allMatches(text);
@@ -36,6 +38,10 @@ class LinkEmbeder {
     matches.forEach((match) {
       print(text.substring(match.start, match.end));
     });
+
+    // checks if the text contains any links
+    // if it does, it returns a Widget
+    // else it returns a empty container
     if (matches.isEmpty) {
       return Container();
     } else {
