@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-### Link Embeder
+# Link Embeder
 
 Link embeder for flutter, scrapes URLs from text and shows a Embed with metaData (eg. title, image, description etc..)
 
