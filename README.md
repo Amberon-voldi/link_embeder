@@ -11,21 +11,34 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Link embeder for flutter, scrapes URLs from text and shows a Embed with metaData (eg. title, image, description etc..)
+### Link Embeder
+
+Link embeder for flutter, scrapes URLs from text and shows a Embed with metaData (eg. title, image, description etc..)
 
 ## Features
 
-TODO: show clickable link embed widget with metaData from the website
+show clickable link embed widget with metaData from the website
 
 ## Getting started
 
-TODO: To use the package see and example in the example tab
-
+To use the package see and example in the example tab
 
 ```dart
-const like = 'sample';
+ String Text =
+      'Hey there! I just found out this cool link: https://flutter.dev';
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      //Provide context and text to the LinkEmbeder widget
+      //The LinkEmbeder widget will return a widget with the embedded conte
+      //(eg. title, description, image, etc.)
+      child: LinkEmbeder().showEmbed(context, Text),
+    );
+  }
+}
 ```
 
 ## Additional information
 
-TODO: If you guys have any issue or want to contribute to this package, you can visit the github repo.
+If you guys have any issue or want to contribute to this package, you can visit the github repo.
